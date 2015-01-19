@@ -1,0 +1,12 @@
+[color]
+	ui = auto
+[user]
+	name = Site Mao
+	email = sitem@codeaurora.org
+[push]
+    default = current
+[alias]
+    ls = log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+    caa = commit -a --amend -C HEAD
+[help]
+    autocorrect = 1
